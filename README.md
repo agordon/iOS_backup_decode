@@ -80,6 +80,12 @@ Use either `sqlitebrowser` (GUI) or `sqlite3` (command-line) programs to view th
 Using these scripts to pretty-print information
 -----------------------------------------------
 
+**Installation note**
+
+You will need `Perl` and `Python`, and the `DBI`, `DBD::SQLite` perl modules.
+
+
+
 **List (some) information from the address book** (The address book DB schema is actually quite complicated, this script extracts the minimum amount of information. some missing fields may cause "use of uninitialized values" warnings.)
 
     $ cd [BACKUP-DIRECTORY]
